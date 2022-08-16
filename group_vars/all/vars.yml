@@ -6,6 +6,6 @@ services:
 mongodb_version: 5.0
 rocket.chat_version: 5.0
 traefik_version: 2.8
-rocket_chat_url: https://www.chat69.pp.ua
-my_email: bobaflex355@gmail.com
-traefik_pass: $2y$10$Zlo2A87j32z/50Oh1XVgCeOcukOS1G1OyTylTovVQnGwe7D7S9CSC
+rocket_chat_url: https://your-domain.com
+my_email: your-email@gmail.com
+traefik_pass: yours-pass
