@@ -1,0 +1,13 @@
+---
+- name: Deploy Rocket.chat
+  block:
+    - name: Creating volumes
+      docker_volume:
+        name:
+        - rocketchat-uploads
+        - rocketchat-mongodb
+        - traefik-certificates
+
+    - name: Выкладка сервиса
+      include_tasks: "../services/{{ item.name }}/service.yml"
+      loop: "{{ services }}"

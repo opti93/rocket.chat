@@ -1,0 +1,8 @@
+---
+- name: Docker & Rocket.chat
+  hosts: prodaction
+  roles:
+    - role: docker_install
+      tags: docker_install
+    - role: rocket_deploy
+      tags: rocket_deploy
