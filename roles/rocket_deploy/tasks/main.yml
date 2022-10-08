@@ -3,10 +3,9 @@
   block:
     - name: Creating volumes
       docker_volume:
-        name:
-        - rocketchat-uploads
-        - rocketchat-mongodb
-        - traefik-certificates
+        name1: rocketchat-uploads
+        name2: rocketchat-mongodb
+        name3: traefik-certificates
 
     - name: Выкладка сервиса
       include_tasks: "../services/{{ item.name }}/service.yml"
