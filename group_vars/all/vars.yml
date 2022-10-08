@@ -6,6 +6,6 @@ services:
 mongodb_version: 5.0
 rocket.chat_version: 5.0
 traefik_version: 2.8
-rocket_chat_url: https://your-domain.com
-my_email: your-email@gmail.com
-traefik_pass: yours-pass
+rocket_chat_url: https://registry.ipadmin93.pp.ua
+my_email: vitaliygovarkov@gmail.com
+traefik_pass: $2a$12$li7pxTImzblBpoq2cNSKAutzq.M0odmE/VV4sPEgPlcfiQ8mcrQ3e
